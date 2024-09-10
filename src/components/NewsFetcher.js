@@ -25,7 +25,7 @@ const NewsFetcher = () => {
 
             // Filter out articles with '[Removed]' in title or description
             const filteredNews = response.data.filter(article =>
-                !article.title.includes('[Removed]') &&
+                !article.title.includes('[Removed]') ||
                 !article.description.includes('[Removed]')
             );
 
