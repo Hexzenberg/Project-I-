@@ -1,0 +1,39 @@
+.news-card {
+    width: 100%;
+    max-width: 300px;
+    /* Fixed width for all cards */
+    margin: 25px auto 25px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* Enhanced shadow for more contrast */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.news-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+    /* Smooth hover animation */
+}
+
+.news-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.news-card .sentiment {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #007BFF;
+    font-weight: bold;
+    text-align: center;
+}
