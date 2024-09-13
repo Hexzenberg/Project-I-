@@ -18,7 +18,7 @@ const NewsFetcher = () => {
         setError(null);
 
         try {
-            const response = await axios.post('http://projectiapi-production.up.railway.app/get_news_with_sentiment',
+            const response = await axios.post('https://project-i-api.onrender.com/get_news_with_sentiment',
                 { query },
                 { headers: { 'Content-Type': 'application/json' } }
             );
